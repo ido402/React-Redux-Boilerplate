@@ -3,8 +3,10 @@
  * You need to return something, so if there are no users then just return an empty array
  * */
 
+
 export default function () {
-    return [
+    //a functin that will retrun an array of users.
+    return[
         {
             id: 1,
             first: "Bucky",
@@ -30,4 +32,5 @@ export default function () {
             thumbnail: "http://i.imgur.com/4EMtxHB.png"
         }
     ]
+
 }
